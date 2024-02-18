@@ -17,16 +17,22 @@ header {
 
 .intro-chunk {
   padding: 16px;
-  padding-top: 64px;
-  padding-bottom: 32px;
+  padding-top: 96px;
+  padding-bottom: 48px;
   max-width: 400px;
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
+p {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
 .title {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin: 0px;
+  margin-bottom: 48px;
 }
 
 main {
@@ -47,6 +53,8 @@ main {
   padding-top: 8px;
   border-bottom: 8px solid hsl(0deg, 0%, 40%);
   line-height: 1.5;
+  font-size: 1.25rem;
+  padding-bottom: 24px;
 }
 
 .indented-heading {
